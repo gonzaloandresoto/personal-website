@@ -9,7 +9,23 @@ body {
     padding: 0px 10%;
 }
 
+a, a:visited, a:active {
+    color: black;
+    text-decoration: none;
+   }
 
+a:hover {
+    color: #005bb0;
+}
+
+h2 {
+     font-size: 2rem;
+}
+
+.link {
+    text-decoration: underline;
+    font-weight: 500;
+}
 /* This is the CSS for the navigation bar */
 .nav_bar {
     display: flex;
@@ -73,7 +89,6 @@ body {
 }
 
 .hero_writing h2 {
-    font-size: 2rem;
     padding-bottom: 2%;
 }
 
@@ -86,4 +101,23 @@ body {
     height: auto;
     padding: 0% 10%;
     /* background-color: #005bb0; */
+}
+
+/* This is the CSS for the work status */
+.work_status {
+    /* background-color: #e6fbcf; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5% 0;
+}
+
+.work_item {
+    display: block;
+    /* background-color: aquamarine; */
+    flex: 1.5;
+}
+
+.work_title {
+    padding-bottom: 2%;
 }
