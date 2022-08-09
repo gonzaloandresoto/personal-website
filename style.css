@@ -65,6 +65,8 @@ h2 {
     margin: 15px 0px;
     border-radius: 5px;
     background-color: #cfe6fb;
+    /* background: linear-gradient(45deg,#E7C6FF,#B8C0FF, #BBD0FF); */
+
 }
 
 .update_button {
@@ -74,6 +76,10 @@ h2 {
     border-radius: 5px;
     text-decoration: none;
     border: none;
+}
+
+.update_button:hover {
+    background-color: #023e76;
 }
 
 /* This is the CSS for the hero */
@@ -86,6 +92,7 @@ h2 {
 
 .hero_writing {
     text-align: center;
+    max-width: 480px;
 }
 
 .hero_writing h2 {
@@ -105,11 +112,13 @@ h2 {
 
 /* This is the CSS for the work status */
 .work_status {
-    /* background-color: #e6fbcf; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 5% 0;
+    padding: 2.5% 0;
+    overflow-x:visible;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .work_item {
@@ -120,4 +129,87 @@ h2 {
 
 .work_title {
     padding-bottom: 2%;
+}
+
+/* This is the CSS for the work tiles */
+.projects_container {
+    padding: 2.5% 0;
+}
+
+.projects_header {
+    padding-bottom: 2%;
+}
+
+.project_cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1.5rem;
+}
+
+.project_individual_one {
+    display: block;
+    background: linear-gradient(#b83c4d,#fff);
+    color: #fff;
+    text-align: left;
+    border-radius: 10px;
+    padding: 5% 7.5%;
+    box-shadow: 2px 0px 5px grey;
+}
+
+.project_individual_two {
+    display: block;
+    background: linear-gradient(#6183cd,#fff);
+    color: #fff;
+    text-align: left;
+    border-radius: 10px;
+    padding: 5% 7.5%;
+    box-shadow: 2px 0px 5px grey;
+}
+
+.main_red {
+    background-color: #ca253b;
+}
+
+.main_blue {
+    background-color: #3062cc;
+}
+
+.project_visit_button {
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+}
+
+.project_individual_three {
+    display: block;
+    background: linear-gradient(#3fa3b9,#fff);
+    color: #fff;
+    text-align: left;
+    border-radius: 10px;
+    padding: 5% 7.5%;
+    box-shadow: 2px 0px 5px grey;
+}
+
+.project_individual_four {
+    display: block;
+    background: linear-gradient(#df8831,#fff);
+    color: #fff;
+    text-align: left;
+    border-radius: 10px;
+    padding: 5% 7.5%;
+    box-shadow: 2px 0px 5px grey;
+}
+
+.project_title {
+    padding-bottom: 2%;
+}
+
+.project_company {
+    padding-bottom: 2%;
+}
+
+.project_description {
+    padding-bottom: 50%;
 }
