@@ -153,7 +153,14 @@ h2 {
     text-align: left;
     border-radius: 10px;
     padding: 5% 7.5%;
-    box-shadow: 2px 0px 5px grey;
+    top: 0;
+    box-shadow: 0px 2px 5px rgb(198, 198, 198);
+    position: relative;
+}
+
+.project_individual_one:hover {
+    top: -10px;
+    box-shadow: 0px 12px 5px rgb(198, 198, 198);
 }
 
 .project_individual_two {
@@ -163,15 +170,34 @@ h2 {
     text-align: left;
     border-radius: 10px;
     padding: 5% 7.5%;
-    box-shadow: 2px 0px 5px grey;
+    top: 0;
+    box-shadow: 0px 2px 5px rgb(198, 198, 198);
+    position: relative;
+}
+
+.project_individual_two:hover {
+    top: -10px;
+    box-shadow: 0px 12px 5px rgb(198, 198, 198);
 }
 
 .main_red {
     background-color: #ca253b;
 }
 
+.main_red:hover {
+    background-color: #971e2e;
+}
+
 .main_blue {
     background-color: #3062cc;
+}
+
+.main_teal {
+    background-color: #3fa3b9;
+}
+
+.main_orange {
+    background-color: #df8831;
 }
 
 .project_visit_button {
@@ -189,7 +215,14 @@ h2 {
     text-align: left;
     border-radius: 10px;
     padding: 5% 7.5%;
-    box-shadow: 2px 0px 5px grey;
+    top: 0;
+    box-shadow: 0px 2px 5px rgb(198, 198, 198);
+    position: relative;
+}
+
+.project_individual_three:hover {
+    top: -10px;
+    box-shadow: 0px 12px 5px rgb(198, 198, 198);
 }
 
 .project_individual_four {
@@ -199,7 +232,14 @@ h2 {
     text-align: left;
     border-radius: 10px;
     padding: 5% 7.5%;
-    box-shadow: 2px 0px 5px grey;
+    top: 0;
+    box-shadow: 0px 2px 5px rgb(198, 198, 198);
+    position: relative;
+}
+
+.project_individual_four:hover {
+    top: -10px;
+    box-shadow: 0px 12px 5px rgb(198, 198, 198);
 }
 
 .project_title {
@@ -212,4 +252,44 @@ h2 {
 
 .project_description {
     padding-bottom: 50%;
+}
+
+/* This is the CSS for the footer */
+
+.footie {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 2.5% 0;
+}
+
+.footie h3 {
+    line-height: 160%;
+}
+
+.footie h4 {
+    line-height: 160%;
+}
+
+.footie ul {
+    list-style-type: none;
+    line-height: 160%;
+}
+
+.footie a:hover {
+    text-decoration: underline;
+}
+
+.connect_container {
+    display: block;
+    padding-right: 15%;
+}
+
+.extra_container {
+    display: block;
+    padding-right: 15%;
+}
+
+.credits_container {
+    display: block;
 }
