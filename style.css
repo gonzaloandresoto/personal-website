@@ -6,7 +6,7 @@
 }
 
 body {
-    padding: 0px 10%;
+    padding: 0.5% 15%;
 }
 
 a, a:visited, a:active {
@@ -154,13 +154,13 @@ h2 {
     border-radius: 10px;
     padding: 5% 7.5%;
     top: 0;
-    box-shadow: 0px 2px 5px rgb(198, 198, 198);
+    box-shadow: 0px 2px 5px rgb(217, 217, 217);
     position: relative;
 }
 
 .project_individual_one:hover {
-    top: -10px;
-    box-shadow: 0px 12px 5px rgb(198, 198, 198);
+    top: -5px;
+    box-shadow: 0px 12px 10px 5px rgb(217, 217, 217);
 }
 
 .project_individual_two {
@@ -171,13 +171,13 @@ h2 {
     border-radius: 10px;
     padding: 5% 7.5%;
     top: 0;
-    box-shadow: 0px 2px 5px rgb(198, 198, 198);
+    box-shadow: 0px 2px 5px rgb(217, 217, 217);
     position: relative;
 }
 
 .project_individual_two:hover {
-    top: -10px;
-    box-shadow: 0px 12px 5px rgb(198, 198, 198);
+    top: -5px;
+    box-shadow: 0px 12px 10px 5px rgb(217, 217, 217);
 }
 
 .main_red {
@@ -206,6 +206,9 @@ h2 {
     color: #fff;
     text-decoration: none;
     border: none;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
 }
 
 .project_individual_three {
@@ -216,13 +219,13 @@ h2 {
     border-radius: 10px;
     padding: 5% 7.5%;
     top: 0;
-    box-shadow: 0px 2px 5px rgb(198, 198, 198);
+    box-shadow: 0px 2px 5px rgb(217, 217, 217);
     position: relative;
 }
 
 .project_individual_three:hover {
-    top: -10px;
-    box-shadow: 0px 12px 5px rgb(198, 198, 198);
+    top: -5px;
+    box-shadow: 0px 12px 10px 5px rgb(217, 217, 217);
 }
 
 .project_individual_four {
@@ -233,13 +236,13 @@ h2 {
     border-radius: 10px;
     padding: 5% 7.5%;
     top: 0;
-    box-shadow: 0px 2px 5px rgb(198, 198, 198);
+    box-shadow: 0px 2px 5px rgb(217, 217, 217);
     position: relative;
 }
 
 .project_individual_four:hover {
-    top: -10px;
-    box-shadow: 0px 12px 5px rgb(198, 198, 198);
+    top: -5px;
+    box-shadow: 0px 12px 10px 5px rgb(217, 217, 217);
 }
 
 .project_title {
@@ -251,7 +254,7 @@ h2 {
 }
 
 .project_description {
-    padding-bottom: 50%;
+    padding-bottom: 70%;
 }
 
 /* This is the CSS for the footer */
@@ -282,12 +285,12 @@ h2 {
 
 .connect_container {
     display: block;
-    padding-right: 15%;
+    padding-right: 20%;
 }
 
 .extra_container {
     display: block;
-    padding-right: 15%;
+    padding-right: 20%;
 }
 
 .credits_container {
